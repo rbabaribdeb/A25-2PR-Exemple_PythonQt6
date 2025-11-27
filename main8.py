@@ -1,5 +1,9 @@
 # Exercice de calculateur
-# champs a
-# champ  b
+# qlineEdit champs a
+# qlineEdit champ  b
 # lbl    resultat
 # btn    calculer +
+
+#1 une fenetre vide ...
+
+

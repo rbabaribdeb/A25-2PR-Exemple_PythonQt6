@@ -28,7 +28,7 @@ grid.addWidget(lbl1,0,0)
 
 # creer QLineedit 1,0
 ledit1 = QLineEdit("votre nom ici",fen)
-grid.addWidget(ledit1,1,0)
+grid.addWidget(ledit1,3,0)
 
 # creer un bouton 1
 btn1 = QPushButton(fen)
@@ -47,12 +47,15 @@ im1 = QPixmap("./images/laptop.png")
 # donner le qpixmap au qlabel
 lbl_im1 = QLabel(fen)
 lbl_im1.setPixmap(im1)
-lbl_im1.setGeometry(0,0,50,50)
+#lbl_im1.setGeometry(0,0,50,50)
+
+lbl_im1.setFixedSize(50, 50)           # obligatoire dans un layout
+lbl_im1.setScaledContents(True)
 
 # modifier la taille de l'image
-lbl_im1.setScaledContents(True)
-lbl_im1.resize(200,200)
-grid.addWidget(lbl_im1,3,0)
+#lbl_im1.setScaledContents(True)
+#lbl_im1.resize(200,200)
+grid.addWidget(lbl_im1,1,0)
 
 # 3 la fenetre va etre visible
 fen.show()

@@ -1,3 +1,4 @@
+# app avec qlabel
 # pip install PyQt6
 from PyQt6.QtWidgets import QApplication, QWidget, QLabel
 
